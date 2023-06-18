@@ -45,7 +45,6 @@ mod windows_streams {
         gboolean, GInputStream, GInputStreamClass, GOutputStream, GOutputStreamClass, GType,
     };
 
-    #[link(name = "gio-2.0")]
     extern "C" {
         //=========================================================================
         // GWin32InputStream
