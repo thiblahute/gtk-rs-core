@@ -2411,8 +2411,6 @@ impl ::std::fmt::Debug for GVariantType {
     }
 }
 
-#[link(name = "gobject-2.0")]
-#[link(name = "glib-2.0")]
 extern "C" {
 
     //=========================================================================
